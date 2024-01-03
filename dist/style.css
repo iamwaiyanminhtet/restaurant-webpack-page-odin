@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --nav-bar-height : 
+}
+
+body {
+    height: 100vh;
+}
+
+header nav ul {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 72, 96);
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+header nav ul:nth-child(1) {
+    font-family: Sevillana, Arial, Helvetica, sans-serif;
+    color: black;
+    text-shadow: 1px 1px 1px white;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li button {
+    background-color: black;
+    color: antiquewhite;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+#content .home,
+#content .about,
+#content .contact {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
